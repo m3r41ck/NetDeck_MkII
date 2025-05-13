@@ -1,0 +1,16 @@
+#pragma once
+
+// OLED DRIVER CONFIG
+#define OLED_DRIVER_ENABLE
+#define OLED_DISPLAY_ADDRESS 0x3C
+#define I2C_DRIVER  I2CD1
+#define I2C1_SCL_PIN GP27
+#define I2C1_SDA_PIN GP26
+#define OLED_DISPLAY_128X64
+#define OLED_TIMEOUT 60000  // 60 seconds
+// #define OLED_ROTATION OLED_ROTATION_180  // Rotate display 180 degrees
+
+// ENCODER CONFIG
+#define ENCODER_A_PINS {GP0, GP2}
+#define ENCODER_B_PINS {GP1, GP3}
+
